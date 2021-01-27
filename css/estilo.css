@@ -1,0 +1,194 @@
+/*Limpando as formatações padrões*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1rem;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+/*layout*/
+#area-cabecalho {
+	background: #2D4962;
+	height: 60px;
+	padding: 0px;
+	margin-bottom: 0;
+	text-align: center;
+	/* border: 1px solid red; */
+	background-attachment: fixed center top;
+
+}
+
+#area-cabecalho .menu-contraido{
+	background-color: black;
+	z-index: 100;
+	text-align: left;
+}
+
+#area-logo{
+	/* border: 1px solid red; */
+	padding: 0px;
+	float: left;
+	text-align: left;
+}
+.area-menu{
+	/* border: 1px solid red; */
+	padding: 20px;
+	padding-bottom: 0;
+	
+	margin-bottom: 0px;
+}
+
+#area-principal{
+	width: 100%;
+	margin: 0 auto;
+	padding:10px;
+}
+
+#area-postagens{
+	/* width: 550px; */
+	float: left;
+}
+#area-lateral-esquerda{
+	/* width: 185px; */
+	float: left;
+}
+#area-lateral-direita{
+	/* width: 215px; */
+	float: right;
+}
+#rodape {
+	text-align: center;
+	padding: 15px;
+	background: rgb(168, 149, 149);
+}
+.redondo{
+	background: #e4dada;
+	border-radius: 0.5rem;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+.postagem{
+	padding: 20px;
+	margin-bottom: 10px;
+	background: white;
+	border-radius: 0.5rem;
+}
+.conteudo-lateral{
+	background:white;
+	padding: 0px;
+	margin-bottom: 20px; 
+	border-radius: 0.5rem;
+	z-index: 0;
+}
+.postagem-lateral{
+	font-size: 0.9em;
+	padding: 20px;
+	border-bottom: 1px dotted white;
+}
+/*Formatação do menu*/
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #1f2727;
+	
+}
+a:hover{
+	background-position: right bottom;
+	border-radius: 0.3rem;
+
+}
+#area-lateral-esquerda ul a{
+	font-size: 0.9rem;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+#area-lateral-esquerda ul a:hover{
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+
+}
+body.home .area-menu a#home,
+body.pessoal .area-menu a#pessoal,
+body.programa .area-menu a#programa,
+body.producoes .area-menu a#producoes,
+body.divulgacao .area-menu a#divulgacao{
+	color:#fff;
+	cursor: text;
+	border-radius: 0.3rem;
+
+}
+ul{
+	list-style: none;
+}
+
+.navegation ul{
+	margin: 0 auto;
+}
+
+#area-cabecalho {
+	background-color: black;
+	font-size: 1.05rem;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color:#797777;
+	padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+	color:#fff;
+	transition: .5s;
+}
+
+/*Formatações em geral*/
+
+h1{
+	color: #4e4e4e;
+	font-size: 1.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+	color: #1f2727;
+	font-size: 1.3rem;
+}
+h3 {
+	color: hsla(0, 0%, 98%, 0.932);
+	background: rgb(8, 8, 8);
+	padding: 5px;
+	font-size: 1rem;
+	text-align: center; 
+	border-radius: 0.3rem;
+}
+h4 {
+	color: #565656;
+	font-size: 1.5rem;
+}
+.capa img{
+	width: 100%;
+
+} 
+
+.branco{
+	color: white;
+}
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+img{
+	border-radius: 2px;
+}
